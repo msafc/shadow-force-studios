@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53577
+51738
 Successfully changed project path to: /Users/meri/repo/shadow-force-studios
 /Users/meri/repo/shadow-force-studios
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/meri/repo/shadow-force-studios
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8319870208] Host "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 1854610189 [EditorId] 1854610189 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Meritxell.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8319870208] Host "[IP] 192.168.1.79 [Port] 0 [Flags] 2 [Guid] 955737263 [EditorId] 955737263 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Meritxell.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8319870208] Host "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 1854610189 [EditorId] 1854610189 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Meritxell.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8319870208] Host "[IP] 192.168.1.79 [Port] 0 [Flags] 2 [Guid] 955737263 [EditorId] 955737263 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Meritxell.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 66.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 73.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,78 +73,78 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56551
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56490
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.22f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000800 seconds.
+Registered in 0.001968 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 66.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 65.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.467 seconds
+- Completed reload, in  0.451 seconds
 Domain Reload Profiling:
-	ReloadAssembly (467ms)
-		BeginReloadAssembly (77ms)
+	ReloadAssembly (452ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (327ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (81ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (305ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (70ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (193ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (185ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (67ms)
+				RefreshPlugins (65ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (94ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001521 seconds.
+Registered in 0.005719 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/meri/repo/shadow-force-studios/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/meri/repo/shadow-force-studios/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.651 seconds
+- Completed reload, in  0.617 seconds
 Domain Reload Profiling:
-	ReloadAssembly (651ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (617ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (517ms)
-			LoadAssemblies (43ms)
+		EndReloadAssembly (489ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (194ms)
+			SetupTypeCache (171ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (218ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (204ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (147ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -153,13 +153,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (341.2 KB). Loaded Objects now: 3520.
-Memory consumption went from 102.5 MB to 102.2 MB.
-Total: 2.133667 ms (FindLiveObjects: 0.093875 ms CreateObjectMapping: 0.034417 ms MarkObjects: 1.920500 ms  DeleteObjects: 0.084084 ms)
+Unloading 24 unused Assets / (341.1 KB). Loaded Objects now: 3522.
+Memory consumption went from 102.7 MB to 102.3 MB.
+Total: 2.544708 ms (FindLiveObjects: 0.108208 ms CreateObjectMapping: 0.035584 ms MarkObjects: 2.317083 ms  DeleteObjects: 0.082958 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -173,13 +173,195 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 86786.467922 seconds.
-  path: Assets/Space Shooter Template FREE/Prefabs/Game_Controller.prefab
-  artifactKey: Guid(01cf4a33fc66cde4abc060ccfeadeb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Template FREE/Prefabs/Game_Controller.prefab using Guid(01cf4a33fc66cde4abc060ccfeadeb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52429e26323fdfc7887c561e821184fb') in 0.098546 seconds 
+  Time since last request: 464495.834597 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Smoke_01.mat
+  artifactKey: Guid(3b922b76b9ea81d4cbd9207035208b52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Smoke_01.mat using Guid(3b922b76b9ea81d4cbd9207035208b52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ce4214c79db5dbd8f30b6bd986e9552') in 0.487137 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.375837 seconds.
-  path: Assets/Space Shooter Template FREE/Prefabs/Planets/Cream-Violet-Planet.prefab
-  artifactKey: Guid(14ba388dd3927af43809d67838649ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Template FREE/Prefabs/Planets/Cream-Violet-Planet.prefab using Guid(14ba388dd3927af43809d67838649ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6c61f6b9ff8e56d5c82ab9a3827742') in 0.138445 seconds 
+  Time since last request: 0.000064 seconds.
+  path: Assets/Space Shooter Template FREE/Scripts/RepeatingBackground.cs
+  artifactKey: Guid(202502903953b7d4d84a14f3916a17e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Scripts/RepeatingBackground.cs using Guid(202502903953b7d4d84a14f3916a17e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '94ccefd643893fa8bad564d65f371be4') in 0.234483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Weapons/Ball_02.png
+  artifactKey: Guid(fdbb98758a20ad844ab8b060f20d8244) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/Weapons/Ball_02.png using Guid(fdbb98758a20ad844ab8b060f20d8244) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bce9f0915645e8a149e8c008b9c1fecb') in 0.602252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Engines/Engine_01_Effect_Sphere.mat
+  artifactKey: Guid(2b972bb6bcf755b49bdc702bf972227c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Engines/Engine_01_Effect_Sphere.mat using Guid(2b972bb6bcf755b49bdc702bf972227c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '050448dd5f171cd519047867d013df9f') in 0.006677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Background/Stars-Medium_1_1_PC.png
+  artifactKey: Guid(62675b2dea3106f45bbd9cb1195ba7d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/Background/Stars-Medium_1_1_PC.png using Guid(62675b2dea3106f45bbd9cb1195ba7d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '15e733f4c8f56ce192fba1214e57099d') in 0.042103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Space Shooter Template FREE/Scripts/Bonus.cs
+  artifactKey: Guid(97cbb94a2e3a8f04184c0658c07a9da5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Scripts/Bonus.cs using Guid(97cbb94a2e3a8f04184c0658c07a9da5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8dd3f4f2db48374fff4a3446e0ca4b0') in 0.004002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Rocket_Explosion_01.png
+  artifactKey: Guid(50dc64848e3e40f4fa77ab53e6ea3783) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Rocket_Explosion_01.png using Guid(50dc64848e3e40f4fa77ab53e6ea3783) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e728400eee945c2c3e2a90c998981a68') in 0.010064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Power Ups/Power Up.png
+  artifactKey: Guid(fde575ea5128bc747b1fb00e6f385559) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/Power Ups/Power Up.png using Guid(fde575ea5128bc747b1fb00e6f385559) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f376914d3e7e189c8cbca62a284bb807') in 0.009015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Enemy Hit Effect/Enemy Hit Effect_01.png
+  artifactKey: Guid(cb18f36e5bca12e498f2de877e9ffff0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Enemy Hit Effect/Enemy Hit Effect_01.png using Guid(cb18f36e5bca12e498f2de877e9ffff0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c669879be5d5cb629c2007856ee78c1b') in 0.010327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Smoke_01_PC.mat
+  artifactKey: Guid(710191fd918f4444e92b8407ece4b82a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Smoke_01_PC.mat using Guid(710191fd918f4444e92b8407ece4b82a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb5e330840e2f7b5669221d5150f97bf') in 0.004638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Space Shooter Template FREE/Animation/Bonuses/Power Up.prefab
+  artifactKey: Guid(71f89368f03bd5740a7f17e106b277bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Animation/Bonuses/Power Up.prefab using Guid(71f89368f03bd5740a7f17e106b277bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3748a7b2210b48ab1d0ee48e1e8c109a') in 0.043947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/VFX/Enemy Explosion.prefab
+  artifactKey: Guid(45ae5851ef2832044bba82850372d67b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/VFX/Enemy Explosion.prefab using Guid(45ae5851ef2832044bba82850372d67b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eabaace58d67aaccda49e5fdb246c2de') in 0.006444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Enemy Hit Effect/Enemy Hit Effect_02.png
+  artifactKey: Guid(41a056b1e3cb7794dbcc44338c61bbd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Enemy Hit Effect/Enemy Hit Effect_02.png using Guid(41a056b1e3cb7794dbcc44338c61bbd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f02f5696f7ce04727d345c644b120d1') in 0.010609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/VFX/Enemy Explosion_02.prefab
+  artifactKey: Guid(69bc9de1566254e4db3ef4d734a7fbcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/VFX/Enemy Explosion_02.prefab using Guid(69bc9de1566254e4db3ef4d734a7fbcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02f39083cbb73a4c8d92f32452d51d5b') in 0.004862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Space Shooter Template FREE/Scripts/Player.cs
+  artifactKey: Guid(0eb41f2cd4a34c640ab7314296953cc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Scripts/Player.cs using Guid(0eb41f2cd4a34c640ab7314296953cc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '60c865ecc559c76e23d837d48cddf35a') in 0.002551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Planets/Purple-Planet-wih-Moon.png
+  artifactKey: Guid(badeeac037e8bea42a8a57230ed0eb9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/Planets/Purple-Planet-wih-Moon.png using Guid(badeeac037e8bea42a8a57230ed0eb9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0dae2fa261c4ae3f854b0143af23a247') in 0.010907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Space Shooter Template FREE/Scenes/Demo_Scene.unity
+  artifactKey: Guid(d31945966fedec24fa8cf028f485e539) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Scenes/Demo_Scene.unity using Guid(d31945966fedec24fa8cf028f485e539) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f0f1ddd0df271aed2162ce45f0d73c3') in 0.001969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Space Shooter Template FREE/Documentation/Space Shooter FREE Manual.pdf
+  artifactKey: Guid(0077474b99667c14b9d606a2f5668fe2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Documentation/Space Shooter FREE Manual.pdf using Guid(0077474b99667c14b9d606a2f5668fe2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3b485d48e2e26771d59a5ff4a0262ab4') in 0.559295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Parts_01.png
+  artifactKey: Guid(249f6ebbdacd4b44999b6f2f2a7b92ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Parts_01.png using Guid(249f6ebbdacd4b44999b6f2f2a7b92ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9a7d5cc213f023ba3c5ebe73ca5c61a6') in 0.009352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Parts_PC.mat
+  artifactKey: Guid(0c9ae2a77654129478a5823b4b26bb4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Parts_PC.mat using Guid(0c9ae2a77654129478a5823b4b26bb4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '46358e8e6b7dd9eb5012f50e34e90ed7') in 0.003788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/Enemies/Enemy_straight_projectile.prefab
+  artifactKey: Guid(fdaaab53a8b4c0143b19d2a2e4007e44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/Enemies/Enemy_straight_projectile.prefab using Guid(fdaaab53a8b4c0143b19d2a2e4007e44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f51e40fcddd127a6992344eabebf940f') in 0.009583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/VFX/Enemy Explosion PC.prefab
+  artifactKey: Guid(031faf5ef0ec4c34c86671fa3e2e81d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/VFX/Enemy Explosion PC.prefab using Guid(031faf5ef0ec4c34c86671fa3e2e81d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8fc175aed27981b6b6599b3ce968d85e') in 0.004777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/EnemyWaves/Wave_2.prefab
+  artifactKey: Guid(15eadeed59ef1574896dd15b62c0ff3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/EnemyWaves/Wave_2.prefab using Guid(15eadeed59ef1574896dd15b62c0ff3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '38012484e82627a279c9523fb347fa6e') in 0.007227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Smoke_02.mat
+  artifactKey: Guid(f7601e72adf5e7b4eabb731425d0b998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Smoke_02.mat using Guid(f7601e72adf5e7b4eabb731425d0b998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b49ee5d58f9a11ab90fe09c536d1f2c3') in 0.003590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Space Shooter Template FREE/Scripts/Projectile.cs
+  artifactKey: Guid(002f4bcf8b0ec074f8485b31c91504b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Scripts/Projectile.cs using Guid(002f4bcf8b0ec074f8485b31c91504b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd3e17990af36eb2afba76eb039d046f2') in 0.002840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/VFX/Central_Gun.prefab
+  artifactKey: Guid(380a1775a94df734ca504792dc0dee1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/VFX/Central_Gun.prefab using Guid(380a1775a94df734ca504792dc0dee1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd79b83c7b0a615909d96a6a079f146b') in 0.050497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/VFX/Player Explosion.prefab
+  artifactKey: Guid(600ec83cba1cec448bf41a6607229741) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/VFX/Player Explosion.prefab using Guid(600ec83cba1cec448bf41a6607229741) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0b1ef318d17a80d4e6bd6338a5b30da1') in 0.004461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Smoke_02.png
+  artifactKey: Guid(4597cc4489ac8ac4dbcca786dd7babd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Smoke_02.png using Guid(4597cc4489ac8ac4dbcca786dd7babd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '06905b4ec6175363ce57ceef86f73eb9') in 0.008820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Space Shooter Template FREE/Scripts/FollowThePath.cs
+  artifactKey: Guid(cb55924fc8ef444409698fed6ae69676) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Scripts/FollowThePath.cs using Guid(cb55924fc8ef444409698fed6ae69676) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3f3491428a798e656591ae32bcaa20a7') in 0.001887 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (84.7 KB). Loaded Objects now: 3522.
+Memory consumption went from 62.2 MB to 62.1 MB.
+Total: 12.866708 ms (FindLiveObjects: 0.168416 ms CreateObjectMapping: 0.035500 ms MarkObjects: 12.560500 ms  DeleteObjects: 0.101625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53577
+51738
 Successfully changed project path to: /Users/meri/repo/shadow-force-studios
 /Users/meri/repo/shadow-force-studios
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/meri/repo/shadow-force-studios
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8319870208] Host "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 2564498931 [EditorId] 2564498931 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Meritxell.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8319870208] Host "[IP] 192.168.1.79 [Port] 0 [Flags] 2 [Guid] 3100387822 [EditorId] 3100387822 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Meritxell.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8319870208] Host "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 2564498931 [EditorId] 2564498931 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Meritxell.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8319870208] Host "[IP] 192.168.1.79 [Port] 0 [Flags] 2 [Guid] 3100387822 [EditorId] 3100387822 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Meritxell.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 67.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 73.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,78 +73,78 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56553
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.22f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001934 seconds.
+Registered in 0.000832 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 65.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 64.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.435 seconds
+- Completed reload, in  0.471 seconds
 Domain Reload Profiling:
-	ReloadAssembly (435ms)
-		BeginReloadAssembly (77ms)
+	ReloadAssembly (471ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (300ms)
-			LoadAssemblies (77ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (321ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (68ms)
+			SetupTypeCache (81ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
+			RebuildScriptCaches (26ms)
 			SetupLoadedEditorAssemblies (186ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (66ms)
+				RefreshPlugins (64ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005564 seconds.
+Registered in 0.001413 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/meri/repo/shadow-force-studios/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/meri/repo/shadow-force-studios/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.606 seconds
+- Completed reload, in  0.653 seconds
 Domain Reload Profiling:
-	ReloadAssembly (607ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (654ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (480ms)
-			LoadAssemblies (50ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (520ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (170ms)
+			SetupTypeCache (198ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (208ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (212ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -153,13 +153,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (85.2 KB). Loaded Objects now: 3520.
-Memory consumption went from 102.3 MB to 102.2 MB.
-Total: 2.132083 ms (FindLiveObjects: 0.089833 ms CreateObjectMapping: 0.035250 ms MarkObjects: 1.926083 ms  DeleteObjects: 0.080333 ms)
+Unloading 24 unused Assets / (213.1 KB). Loaded Objects now: 3522.
+Memory consumption went from 102.5 MB to 102.3 MB.
+Total: 2.442291 ms (FindLiveObjects: 0.147708 ms CreateObjectMapping: 0.046792 ms MarkObjects: 2.009875 ms  DeleteObjects: 0.237042 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -173,19 +173,387 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 86786.439976 seconds.
-  path: Assets/Space Shooter Template FREE/Prefabs/Player.prefab
-  artifactKey: Guid(8e33fda0c220936498f5288af83d7450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Template FREE/Prefabs/Player.prefab using Guid(8e33fda0c220936498f5288af83d7450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092c5feb9627c8533b15ff0a53c30480') in 0.278274 seconds 
+  Time since last request: 464495.646620 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/EnemyWaves/Wave_5.prefab
+  artifactKey: Guid(e64040bc8d8b82c45a9297ac9699e081) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/EnemyWaves/Wave_5.prefab using Guid(e64040bc8d8b82c45a9297ac9699e081) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c1022b5cff9284e55230c3def55eeb1') in 0.674984 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.224051 seconds.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Space Shooter Template FREE/Scripts/DirectMoving.cs
+  artifactKey: Guid(72b6089e27b1bf04d872f2468cdcd91e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Scripts/DirectMoving.cs using Guid(72b6089e27b1bf04d872f2468cdcd91e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '872240dcd33b2251724f3ae802931665') in 0.233958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Space Shooter Template FREE/Animation/Power Up Animation.anim
+  artifactKey: Guid(114d9cd5f3f1a1a41ac0b6ea57ca7cd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Animation/Power Up Animation.anim using Guid(114d9cd5f3f1a1a41ac0b6ea57ca7cd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7612ba1f190283f8234d564c21ed74b1') in 0.175918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/EnemyWaves/Wave_4.prefab
+  artifactKey: Guid(8d5ec165f323f6c448c6897268785a2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/EnemyWaves/Wave_4.prefab using Guid(8d5ec165f323f6c448c6897268785a2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '126f2ab30fa60a6aa95330a742403150') in 0.007136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/Projectiles/Enemy_Straight_Projetile.prefab
+  artifactKey: Guid(9610b32634c0355409b4b5991571a66b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/Projectiles/Enemy_Straight_Projetile.prefab using Guid(9610b32634c0355409b4b5991571a66b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '48eb763d43acce20f8647665431a5519') in 0.012915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Space Shooter Template FREE/Scripts/PlayerMoving.cs
+  artifactKey: Guid(c089f20f9a699574f8238edac2f9da56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Scripts/PlayerMoving.cs using Guid(c089f20f9a699574f8238edac2f9da56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '44ee38475138265a2c4b8f8c2b8b5357') in 0.003513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Space Shooter Template FREE/Scripts/PoolingController.cs
+  artifactKey: Guid(d910b9ab46730bf429beca31b7d627d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Scripts/PoolingController.cs using Guid(d910b9ab46730bf429beca31b7d627d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d69e2665848f2333fa7a1a29357d8e2') in 0.002974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/EnemyWaves/Wave_1.prefab
+  artifactKey: Guid(318d55ffb775da9468ebdb13dc56bb30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/EnemyWaves/Wave_1.prefab using Guid(318d55ffb775da9468ebdb13dc56bb30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c04f72bd36d93cf07a1acf345aa6af93') in 0.005722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Player Ships/Short-Lazer-Ship.png
+  artifactKey: Guid(f6d9e7337b90b9e4ba6d44379335a759) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/Player Ships/Short-Lazer-Ship.png using Guid(f6d9e7337b90b9e4ba6d44379335a759) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '33b54c43b036c09381000a932e8f01c0') in 0.377418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Background/Stars-Big_1_1.png
+  artifactKey: Guid(7a583abac50037a4d8ec44a3f8e906c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/Background/Stars-Big_1_1.png using Guid(7a583abac50037a4d8ec44a3f8e906c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f6203fb6694fc9220942599aefdb0b41') in 0.013501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Space Shooter Template FREE/Scripts/LevelController.cs
+  artifactKey: Guid(7c9bf8a9458cbcc4780624e9670a91f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Scripts/LevelController.cs using Guid(7c9bf8a9458cbcc4780624e9670a91f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c2339aeb9cb507fdb328d281f7dc031') in 0.010828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Background/Nebula_1_1_Bottom.png
+  artifactKey: Guid(6b10284ebe4e52e489cf7bd6c3aa5dfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/Background/Nebula_1_1_Bottom.png using Guid(6b10284ebe4e52e489cf7bd6c3aa5dfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '925eda512c46cfa7d758a04ff8fb3cb7') in 0.015824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/VFX/Speed Effect.prefab
+  artifactKey: Guid(02c317ecc4c3a484d980337358151369) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/VFX/Speed Effect.prefab using Guid(02c317ecc4c3a484d980337358151369) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '652949a94f5afea929a2ac886b3182f5') in 0.061270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Space Shooter Template FREE/Scripts/VisualEffect.cs
+  artifactKey: Guid(2a8515ff1b32ecb498437becf714b57d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Scripts/VisualEffect.cs using Guid(2a8515ff1b32ecb498437becf714b57d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ffbeb67a5cdc63313d1399b3bd6afc9') in 0.002769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Engines/Engine_01_Effect.mat
+  artifactKey: Guid(f78b95d230bb2b546a24c7e45e474100) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Engines/Engine_01_Effect.mat using Guid(f78b95d230bb2b546a24c7e45e474100) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '41e7973697980b6222598e7c4e18da42') in 0.033705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bfe13c328978e28fbd87a0c41b4a4723') in 0.003818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/VFX/Lazer Ray Hit Effect.prefab
+  artifactKey: Guid(2dd0bdb7830e6644da169b32252dca96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/VFX/Lazer Ray Hit Effect.prefab using Guid(2dd0bdb7830e6644da169b32252dca96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f6156640feffac81b0a0bb6e973c968') in 0.035534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Engines/Engine_01_Basic.png
+  artifactKey: Guid(b57e9fd4004e73c4486d446c026d338b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Engines/Engine_01_Basic.png using Guid(b57e9fd4004e73c4486d446c026d338b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c9b935ec88f9611613ae14e5f099e548') in 0.011592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/VFX/PLayer Engine Effect.prefab
+  artifactKey: Guid(82f253063d03bde448e79c0e1d58a78b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/VFX/PLayer Engine Effect.prefab using Guid(82f253063d03bde448e79c0e1d58a78b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '99fa7569af30c877436b5bda42e8c705') in 0.034653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Engines/Engine_01_Basic.mat
+  artifactKey: Guid(1f665717674355d489e01624ad09c1cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Engines/Engine_01_Basic.mat using Guid(1f665717674355d489e01624ad09c1cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a758b48d080b996a4c72393f4ba5a579') in 0.004389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Space Shooter Template FREE/Scripts/Boundary.cs
+  artifactKey: Guid(e886423ec74338c47b067809786a94b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Scripts/Boundary.cs using Guid(e886423ec74338c47b067809786a94b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1cb12a19e1f9f6fa5ef929d16d7549c1') in 0.003332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Planets/Red-Lines-PLanet.png
+  artifactKey: Guid(81213629a5704014297cd826d7dcb942) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/Planets/Red-Lines-PLanet.png using Guid(81213629a5704014297cd826d7dcb942) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef45f5cbe069b6f812e836e0376b2f5c') in 0.012073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Muzzle/Muzzle.mat
+  artifactKey: Guid(4fa12924968c51a4fbf7f67f630db413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Muzzle/Muzzle.mat using Guid(4fa12924968c51a4fbf7f67f630db413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '310656e40461780afe37a92f0afae70d') in 0.010710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/VFX/Left_Gun.prefab
+  artifactKey: Guid(659b53f3e14c1c64686e0156b201ebc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/VFX/Left_Gun.prefab using Guid(659b53f3e14c1c64686e0156b201ebc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ffae2509c39f2804d20487a5c99a8438') in 0.034721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
   path: Assets/Space Shooter Template FREE/Prefabs/Planets/Purple-Planet-wih-Moon.prefab
-  artifactKey: Guid(c1ae0b8d643fbea439d40b05d4acd750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Template FREE/Prefabs/Planets/Purple-Planet-wih-Moon.prefab using Guid(c1ae0b8d643fbea439d40b05d4acd750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c6a16f77ff393d4d641e9d24779214') in 0.006199 seconds 
+  artifactKey: Guid(c1ae0b8d643fbea439d40b05d4acd750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/Planets/Purple-Planet-wih-Moon.prefab using Guid(c1ae0b8d643fbea439d40b05d4acd750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5dc33f981434585e9c960c963afec733') in 0.006997 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000050 seconds.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Smoke_01.png
+  artifactKey: Guid(edb28dfa5e6c8e94f96425acab8c8318) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Smoke_01.png using Guid(edb28dfa5e6c8e94f96425acab8c8318) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '68769791988ca5700c5058895e168596') in 0.010638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Enemy Hit Effect/Enemy Hit Effect_02.mat
+  artifactKey: Guid(d04f84f6225592f4e9b17dc230366ffb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Enemy Hit Effect/Enemy Hit Effect_02.mat using Guid(d04f84f6225592f4e9b17dc230366ffb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb3913af9e6abd7c235810e9b619e6ad') in 0.004007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/EnemyWaves/Wave_6.prefab
+  artifactKey: Guid(d5985777a604bf240a36957329db29c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/EnemyWaves/Wave_6.prefab using Guid(d5985777a604bf240a36957329db29c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0ee21a50c5720b27f56f57c7d767a79') in 0.005274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Enemies/Enemy_01.png
+  artifactKey: Guid(3c6d6674bfcb5ac498628dff731a28f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/Enemies/Enemy_01.png using Guid(3c6d6674bfcb5ac498628dff731a28f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '15a730b2eeab568c0b786606e9b5b267') in 0.011716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/Background/Backgrounds.prefab
+  artifactKey: Guid(5a213a4dde83c404f8856922c5fc08ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/Background/Backgrounds.prefab using Guid(5a213a4dde83c404f8856922c5fc08ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d94eb8c0804aaff9647adc789800af8') in 0.019126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/VFX/Speed Effect PC.prefab
+  artifactKey: Guid(1a118c8be32c30f4d849d3e8166d88d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/VFX/Speed Effect PC.prefab using Guid(1a118c8be32c30f4d849d3e8166d88d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0f862087b76bbaa569ea1b96ee1a1fe') in 0.034622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
   path: Assets/Space Shooter Template FREE/Prefabs/Planets/Red-Lines-PLanet.prefab
-  artifactKey: Guid(284631a95d42dc047b90d8af25ac4457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter Template FREE/Prefabs/Planets/Red-Lines-PLanet.prefab using Guid(284631a95d42dc047b90d8af25ac4457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befc8dd51c72c432fad96bc595dadcc5') in 0.005514 seconds 
+  artifactKey: Guid(284631a95d42dc047b90d8af25ac4457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/Planets/Red-Lines-PLanet.prefab using Guid(284631a95d42dc047b90d8af25ac4457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a77e88d6fc18bbc2e299754975258b46') in 0.006187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Space Shooter Template FREE/Animation/Power Up Ring.controller
+  artifactKey: Guid(786042d22ff31da41b99a265c2f12ffd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Animation/Power Up Ring.controller using Guid(786042d22ff31da41b99a265c2f12ffd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8dc569b198e7b757b410145f14cf5edf') in 0.039778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Weapons/Machine Gun.png
+  artifactKey: Guid(78f02d1cbc537d4488578b7b68f34f68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/Weapons/Machine Gun.png using Guid(78f02d1cbc537d4488578b7b68f34f68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '329fb7569bb04f8ee0791c1be68af3bf') in 0.013660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/VFX/EngineFx.prefab
+  artifactKey: Guid(b74db332333018b499e28761076c3582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/VFX/EngineFx.prefab using Guid(b74db332333018b499e28761076c3582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'edca0c16a0c550a26552f33cc7896e7a') in 0.003341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Muzzle/Muzzle_Sprite_Sheet.png
+  artifactKey: Guid(37f04ea5fff32d44387e5a7dfac096bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Muzzle/Muzzle_Sprite_Sheet.png using Guid(37f04ea5fff32d44387e5a7dfac096bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '50aba5a08678e72c368e82b93fbd8ff5') in 0.017715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Smoke_02_PC.mat
+  artifactKey: Guid(b7501b71cacf94e468954ef16fba6b47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Smoke_02_PC.mat using Guid(b7501b71cacf94e468954ef16fba6b47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '39c246c76eb739f71303396f26212d73') in 0.005439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Parts_01.mat
+  artifactKey: Guid(fe1443dff46bd5a4082cc407c98f4b40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Parts_01.mat using Guid(fe1443dff46bd5a4082cc407c98f4b40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '80353e9ac13ebe25954d4a096cf4c61a') in 0.005278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/VFX/Right_Gun.prefab
+  artifactKey: Guid(a3169ac311c79f344a86ff84eab7e117) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/VFX/Right_Gun.prefab using Guid(a3169ac311c79f344a86ff84eab7e117) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a646b97eed833ee30b0974793bb3cf39') in 0.033529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/EnemyWaves/Wave_3.prefab
+  artifactKey: Guid(667129e9a76b0bf4095966e1592dfe5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/EnemyWaves/Wave_3.prefab using Guid(667129e9a76b0bf4095966e1592dfe5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '348605f9b1b845f320476fd94b9bdac1') in 0.005354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Background/Stars-Big_1_1_PC.png
+  artifactKey: Guid(ad19dfeb33b50d849a1ef7ccd5ef79fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/Background/Stars-Big_1_1_PC.png using Guid(ad19dfeb33b50d849a1ef7ccd5ef79fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4498ade725e59f627a657da832c7f544') in 0.064226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/Player.prefab
+  artifactKey: Guid(8e33fda0c220936498f5288af83d7450) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/Player.prefab using Guid(8e33fda0c220936498f5288af83d7450) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e55bfdd892096ec77109b1206a712c86') in 0.014072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/Background/Backgrounds 1.prefab
+  artifactKey: Guid(cac02e4a9ae0b2b4c9fd723a6ec00f47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/Background/Backgrounds 1.prefab using Guid(cac02e4a9ae0b2b4c9fd723a6ec00f47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'daaedd54de5d75e34601746413d0de97') in 0.009641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Background/Nebula_1_1_Top.png
+  artifactKey: Guid(1cbe86da37c239742acb602c572d81c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/Background/Nebula_1_1_Top.png using Guid(1cbe86da37c239742acb602c572d81c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b60a7f6ab93b58649acaa0b97ec4639') in 0.012744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Space Shooter Template FREE/Scripts/PlayerShooting.cs
+  artifactKey: Guid(f36bb360669b0a545b93ce92d3d0abe9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Scripts/PlayerShooting.cs using Guid(f36bb360669b0a545b93ce92d3d0abe9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3e6f7f7658a821ecf1f515cde089f720') in 0.002609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/Projectiles/Player_Short_Lazer.prefab
+  artifactKey: Guid(7120694aa5e8a9d4a88b1e61228dabb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/Projectiles/Player_Short_Lazer.prefab using Guid(7120694aa5e8a9d4a88b1e61228dabb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00baee90d7fe0901463e542924409535') in 0.007670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Rocket_Explosion_01.mat
+  artifactKey: Guid(4ba998d512e9cec4186f2e0d4caa65f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Rocket_Explosion_01.mat using Guid(4ba998d512e9cec4186f2e0d4caa65f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '52d6e409ea1e165cb8b2a48ce00acdeb') in 0.003899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Space Shooter Template FREE/Scripts/Enemy.cs
+  artifactKey: Guid(cb93e18709841574888ca778559f3bc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Scripts/Enemy.cs using Guid(cb93e18709841574888ca778559f3bc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c436c0c822e3432f0bf9a8fa607854de') in 0.002911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Enemy Hit Effect/Enemy Hit Effect_01.mat
+  artifactKey: Guid(12d55130dedd36e469dd547e3a836b83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Enemy Hit Effect/Enemy Hit Effect_01.mat using Guid(12d55130dedd36e469dd547e3a836b83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8db437dbe56edb2a3ec8c61c3d8dcf37') in 0.003766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Planets/cyan-planet.png
+  artifactKey: Guid(5c67942973ea22d4fbdce30d9a8c9980) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/Planets/cyan-planet.png using Guid(5c67942973ea22d4fbdce30d9a8c9980) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1648c9da6e27739a3dac0421a05f2ff9') in 0.011774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Engines/Engine_01_Effect.png
+  artifactKey: Guid(99a711709045c58409b66e71ee2b3e1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Engines/Engine_01_Effect.png using Guid(99a711709045c58409b66e71ee2b3e1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ff3ec1f388f5d4a49ed3eda1ec36d76') in 0.011904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/Game_Controller.prefab
+  artifactKey: Guid(01cf4a33fc66cde4abc060ccfeadeb5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/Game_Controller.prefab using Guid(01cf4a33fc66cde4abc060ccfeadeb5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e36ae56d00f54608a6719937554a9bb') in 0.010070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/VFX/Muzzle FX.prefab
+  artifactKey: Guid(9abeea789432c024ba3fbf0cd8669087) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/VFX/Muzzle FX.prefab using Guid(9abeea789432c024ba3fbf0cd8669087) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1a0519038f4d7dd818dbfd11ae897009') in 0.035397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Engines/Engine_01_Effect_Sphere.png
+  artifactKey: Guid(e3bcfb1e47421ab4786c4ad4a7965935) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Engines/Engine_01_Effect_Sphere.png using Guid(e3bcfb1e47421ab4786c4ad4a7965935) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7cbaba7233630daf8709c1fdabeac2be') in 0.010627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Power Ups/Power Up Ring.png
+  artifactKey: Guid(835076da6ec98744ba881e9b3b379043) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/Power Ups/Power Up Ring.png using Guid(835076da6ec98744ba881e9b3b379043) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3523041fc7fba6a13502e5fca68628e4') in 0.010632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/Planets/Cream-Violet-Planet.prefab
+  artifactKey: Guid(14ba388dd3927af43809d67838649ea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/Planets/Cream-Violet-Planet.prefab using Guid(14ba388dd3927af43809d67838649ea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e25b0a8a452407e2c2e015ae63b072bc') in 0.006067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Space Shooter Template FREE/Scripts/Wave.cs
+  artifactKey: Guid(5bce8ed9b64f39c44bdd9d3b9f6debe3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Scripts/Wave.cs using Guid(5bce8ed9b64f39c44bdd9d3b9f6debe3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '04cf0009ed0ea10cf4b895e94bf4b0dd') in 0.002876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/VFX/Enemy Explosion_02_PC.prefab
+  artifactKey: Guid(4e19371f43812044389be8538ddac949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Prefabs/VFX/Enemy Explosion_02_PC.prefab using Guid(4e19371f43812044389be8538ddac949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f16abb3d9dcea8df8d0f203f61cc4d65') in 0.005102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Planets/blue-planet.png
+  artifactKey: Guid(4824fa28ba58074488d725843f545f35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/Planets/blue-planet.png using Guid(4824fa28ba58074488d725843f545f35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b89b9d02c53cb3f0f707e4ae1003092c') in 0.010140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Rocket_Explosion_PC.mat
+  artifactKey: Guid(c5f32ff56f29725449fe5d45a157ff79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Rocket_Explosion_PC.mat using Guid(c5f32ff56f29725449fe5d45a157ff79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e418be3ce9e370b0296d99a62801b7a5') in 0.004471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Background/Stars-Medium_1_1.png
+  artifactKey: Guid(cae821368cd9f694f9e65ba82e1564f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Space Shooter Template FREE/Sprites/Background/Stars-Medium_1_1.png using Guid(cae821368cd9f694f9e65ba82e1564f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '80a4a23c7bb223a5302ad1f800672e01') in 0.012819 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (84.8 KB). Loaded Objects now: 3522.
+Memory consumption went from 66.3 MB to 66.2 MB.
+Total: 10.922834 ms (FindLiveObjects: 0.168792 ms CreateObjectMapping: 0.035291 ms MarkObjects: 10.581459 ms  DeleteObjects: 0.136417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
